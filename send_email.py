@@ -12,4 +12,4 @@ def send_email(sender, password, receiver, message, smtp="smtp.gmail.com", port=
     server.login(sender, password)
     server.sendmail(sender, receiver, msg.as_string())
     server.quit()
-    print("📧 Email sent successfully!")
+    print("Email sent successfully!")
