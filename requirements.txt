@@ -1,0 +1,4 @@
+pywhatkit==5.4
+requests==2.31.0
+twilio==9.2.3
+python-dotenv==1.0.1
